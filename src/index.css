@@ -1,0 +1,111 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+.container{
+    height: 100%;
+    align-content:center ;
+    
+    }
+    
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+}
+
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h2{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: 10px;
+}
+
+#email{
+    color:white;
+}
+#password{
+    color:white;
+}
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+.userImg{
+    width: 30px;
+    border-radius: 50%;
+}
+.passwordImg{
+    width: 30px;
+    border-radius: 50%;
+}
+.remember{
+color: white;
+padding-top: 15px;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+#login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+
+}
+
+#login_btn:hover{
+color: black;
+background-color: white;
+}
+.form-group{
+    padding-top: 15px;
+
+}
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}

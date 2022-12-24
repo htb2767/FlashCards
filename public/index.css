@@ -1,0 +1,309 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+}
+
+.container{
+
+height: 100%;
+align-content:center ;
+
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+
+.card-header h2{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: 10px;
+}
+
+#email{
+    color:white;
+}
+#password{
+    color:white;
+}
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+padding-top: 15px;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+#login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+
+}
+
+#login_btn:hover{
+color: black;
+background-color: white;
+}
+.form-group{
+    padding-top: 15px;
+
+}
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+nav {
+    background: #FFC312;
+    display: flex;
+    padding: 24px 36px;
+
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-bottom: 0 !important;
+  }
+  
+  nav a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+  }
+  
+  button,
+  .button {
+    background: #ffffff;
+    border: 1px solid #03a8d8;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFC312;
+    padding: 10px 21px;
+    text-decoration: none;
+  }
+  
+  .create-new-topic-button {
+    margin: 0 auto;
+    display: block;
+    width: 182px;
+  }
+  
+  section {
+    padding: 20px 16px;
+  }
+  
+  input,
+  select {
+    background: #ffffff;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    padding: 8px 10px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  select:invalid,
+  input::placeholder {
+    color: #979797;
+    opacity: 1;
+  }
+  
+  .form-section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  section > h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .actions-container {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-front-back {
+    padding-top: 25px;
+  }
+  
+  .remove-card-button {
+    color: #FFC312;
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: auto;
+    display: block;
+    border: none;
+    padding: unset;
+    margin-top: 8px;
+  }
+  
+  option {
+    text-transform: capitalize;
+  }
+  
+  .topics-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .topic {
+    background: #ffffff;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    padding: 26px 20px;
+  }
+  
+  .topic-container {
+    display: flex;
+  }
+  
+  .topic img {
+    width: 40px;
+    margin-right: 14px;
+  }
+  
+  .text-content > * {
+    margin: 0;
+  }
+  
+  .topic-link {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .text-content > p {
+    font-size: 14px;
+  }
+  
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .topic-icon {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .quizzes-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .quiz {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    padding: 25px 6px;
+    background: #ffffff;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    width: 88px;
+    text-align: center;
+    margin: 0 !important;
+    text-decoration: none;
+  }
+  
+  .quiz > a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .cards-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card-q {
+    background: #FFC312;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 73px 44px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+  
