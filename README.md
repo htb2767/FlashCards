@@ -1,4 +1,4 @@
-# Project: Flash Application 
+# Project: FlashCards Application 
 
 ## Authentication:
 Creating log in and sign up page using Firebase.
