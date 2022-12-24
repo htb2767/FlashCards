@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Project: Flash Application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Authentication:
+Creating log in and sign up page using Firebase.
+<img width="1435" alt="Screenshot 2022-12-24 at 10 17 44 AM" src="https://user-images.githubusercontent.com/91344736/209442600-70846225-54e1-4673-9b1e-53d8324ae68a.png">
 
-## Available Scripts
+## State
 
-In the project directory, you can run:
+The app's state is totally normalized, with slices for topics, quizzes, and cards.
 
-### `npm start`
+## Routes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `/new-topic` – form to create a new topic
+- `/topics` – index of all topics
+- `/topics/:topicId` – page for an individual topic
+- `/new-quiz` – form to create a new quiz
+- `/quizzes` – index of all quizzes
+- `/quizzes/:quizId` – page for an individual quiz
+<img width="1333" alt="Screenshot 2022-12-24 at 10 29 53 AM" src="https://user-images.githubusercontent.com/91344736/209442624-09ba0436-e5db-4da9-b3d6-11c9c8ed2534.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## To Test
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Create topics
+2. Create quizzes
+3. Visit the page for an individual quiz and flip the cards over
